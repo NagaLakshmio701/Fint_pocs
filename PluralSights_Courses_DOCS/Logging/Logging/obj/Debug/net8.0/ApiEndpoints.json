@@ -1,0 +1,173 @@
+[
+  {
+    "ContainingType": "Logging.Controllers.Simple_Logging_Controller",
+    "Method": "CriticalExample_638",
+    "RelativePath": "critical_638",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Logging.Controllers.Simple_Logging_Controller",
+    "Method": "DebugExample_638",
+    "RelativePath": "debug_638",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Logging.Controllers.TelemetryClient_Logging_Controller",
+    "Method": "LogDependency_638",
+    "RelativePath": "dependency",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Logging.Controllers.Simple_Logging_Controller",
+    "Method": "ErrorExample_638",
+    "RelativePath": "error_638",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Logging.Controllers.TelemetryClient_Logging_Controller",
+    "Method": "LogEvent_638",
+    "RelativePath": "event",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Logging.Controllers.TelemetryClient_Logging_Controller",
+    "Method": "LogException_638",
+    "RelativePath": "exception",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Logging.Controllers.Simple_Logging_Controller",
+    "Method": "InfoExample_638",
+    "RelativePath": "info_638",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Logging.Controllers.TelemetryClient_Logging_Controller",
+    "Method": "LogMetric_638",
+    "RelativePath": "metric",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Logging.Controllers.TelemetryClient_Logging_Controller",
+    "Method": "LogRequest_638",
+    "RelativePath": "request",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Logging.Controllers.Scope_Controller",
+    "Method": "BasicScope_A0638",
+    "RelativePath": "Scope_/basic-scope",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Logging.Controllers.Scope_Controller",
+    "Method": "DictionaryScope_638",
+    "RelativePath": "Scope_/dictionary-scope",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Logging.Controllers.Scope_Controller",
+    "Method": "NestedScope_638",
+    "RelativePath": "Scope_/nested-scope",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Logging.Controllers.TelemetryClient_Logging_Controller",
+    "Method": "LogTrace_638",
+    "RelativePath": "trace",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Logging.Controllers.Simple_Logging_Controller",
+    "Method": "TraceExample_638",
+    "RelativePath": "trace_638",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Logging.Controllers.Simple_Logging_Controller",
+    "Method": "WarningExample_638",
+    "RelativePath": "warning_638",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Logging.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Logging.WeatherForecast, Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
