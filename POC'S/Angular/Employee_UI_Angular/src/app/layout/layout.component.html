@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand"routerLink="/master">FINT</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <button class="btn btn-dark" routerLink="/login" routerLinkActive="active">Login</button>
+          <a class="nav-link" routerLink="/master" routerLinkActive="active">Home</a>
+          <a class="nav-link" routerLink="/employee" routerLinkActive="active">EMPLOYEE</a>
+          <a class="nav-link" routerLink="/client" routerLinkActive="active">CLIENT</a>
+          <a class="nav-link" routerLink="/designation" routerLinkActive="active">DESIGNATION</a>
+          <button class="btn btn-dark"    (click)="onlogoff()">LogOut</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <router-outlet></router-outlet>
+</div>

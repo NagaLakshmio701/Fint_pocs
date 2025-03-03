@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "4H1EuRPmHQX+tDYLpfxjUP4SM8htygBHNG+34KUaATI=",
+  "Source": "Serilog_poc",
+  "BasePath": "_content/Serilog_poc",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

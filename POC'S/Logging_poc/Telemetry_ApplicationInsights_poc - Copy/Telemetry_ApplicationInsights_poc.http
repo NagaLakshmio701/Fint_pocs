@@ -1,0 +1,6 @@
+@Telemetry_ApplicationInsights_poc_HostAddress = http://localhost:5289
+
+GET {{Telemetry_ApplicationInsights_poc_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

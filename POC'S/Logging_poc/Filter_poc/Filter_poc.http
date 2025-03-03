@@ -1,0 +1,6 @@
+@Filter_poc_HostAddress = http://localhost:5064
+
+GET {{Filter_poc_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

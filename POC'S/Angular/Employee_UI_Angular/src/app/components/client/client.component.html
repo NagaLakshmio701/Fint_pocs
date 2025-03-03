@@ -1,0 +1,62 @@
+<div class="row">
+    <div class="col-8">
+      <div class="card">
+        <div class="card-header bg-success">
+          Client List - {{fname}}
+        </div>
+        <div class="card-body">
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Action</th>
+
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let client of clientlist; index as i">
+                <td>{{ i + 1 }}</td>
+                <td>{{ client.roleName | uppercase}}</td>
+                <td>
+                  <button class="btn btn-danger" (click)="deleteRole(client.roleId)">Delete</button>
+                  <button class="btn btn-info" (click)="UpdateRole(client)" >Update</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-4">
+      <div class="card">
+        <div class="card-header bg-success">
+          New Client List
+        </div>
+        <div class="card-body">
+          <form #form="ngForm">
+
+            <div class="row">
+              <div class="col-6">
+                <label for="">NAME</label>
+                <input type="text" #roleName="ngModel" name="roleName" required [(ngModel)]="clientobj.roleName" class="form-control">
+                  <div class="text-danger" *ngIf="roleName.invalid && roleName.touched" class="text-danger">
+                    <span>Name is required</span>
+                  </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <button class="btn btn-info" (click)="resetForm()">Reset</button>
+            </div>
+            <div class="col-4">
+              <button class="btn btn-primary"[disabled]="!form.valid" (click)="onSaveClient()">{{clientobj.roleId!=0?"Update":"Save"}}</button>
+            </div>
+          </div>
+          </form>
+         
+      </div>
+    </div>
+  </div>
+  

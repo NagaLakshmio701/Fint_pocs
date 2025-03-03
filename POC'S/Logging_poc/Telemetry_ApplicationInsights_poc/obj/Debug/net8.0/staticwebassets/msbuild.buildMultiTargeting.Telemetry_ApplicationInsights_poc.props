@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Telemetry_ApplicationInsights_poc.props" />
+</Project>

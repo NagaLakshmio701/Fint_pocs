@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\NagaLakshmiSingamset\\Desktop\\DOTNET\\PluralSight_Code\\04\\demos\\BethanysPieShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{34CC4BC0-C522-4995-9E9F-A3F38C8F71EE}|BethanysPieShop\\BethanysPieShop.csproj|c:\\users\\nagalakshmisingamset\\desktop\\dotnet\\pluralsight_code\\04\\demos\\bethanyspieshop\\bethanyspieshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34CC4BC0-C522-4995-9E9F-A3F38C8F71EE}|BethanysPieShop\\BethanysPieShop.csproj|solutionrelative:bethanyspieshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34CC4BC0-C522-4995-9E9F-A3F38C8F71EE}|BethanysPieShop\\BethanysPieShop.csproj|c:\\users\\nagalakshmisingamset\\desktop\\dotnet\\pluralsight_code\\04\\demos\\bethanyspieshop\\bethanyspieshop\\controllers\\piecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34CC4BC0-C522-4995-9E9F-A3F38C8F71EE}|BethanysPieShop\\BethanysPieShop.csproj|solutionrelative:bethanyspieshop\\controllers\\piecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34CC4BC0-C522-4995-9E9F-A3F38C8F71EE}|BethanysPieShop\\BethanysPieShop.csproj|c:\\users\\nagalakshmisingamset\\desktop\\dotnet\\pluralsight_code\\04\\demos\\bethanyspieshop\\bethanyspieshop\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{34CC4BC0-C522-4995-9E9F-A3F38C8F71EE}|BethanysPieShop\\BethanysPieShop.csproj|solutionrelative:bethanyspieshop\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34CC4BC0-C522-4995-9E9F-A3F38C8F71EE}|BethanysPieShop\\BethanysPieShop.csproj|c:\\users\\nagalakshmisingamset\\desktop\\dotnet\\pluralsight_code\\04\\demos\\bethanyspieshop\\bethanyspieshop\\bethanyspieshop.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{34CC4BC0-C522-4995-9E9F-A3F38C8F71EE}|BethanysPieShop\\BethanysPieShop.csproj|solutionrelative:bethanyspieshop\\bethanyspieshop.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\NagaLakshmiSingamset\\Desktop\\DOTNET\\PluralSight_Code\\04\\demos\\BethanysPieShop\\BethanysPieShop\\Program.cs",
+              "RelativeDocumentMoniker": "BethanysPieShop\\Program.cs",
+              "ToolTip": "C:\\Users\\NagaLakshmiSingamset\\Desktop\\DOTNET\\PluralSight_Code\\04\\demos\\BethanysPieShop\\BethanysPieShop\\Program.cs",
+              "RelativeToolTip": "BethanysPieShop\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T09:43:03.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PieController.cs",
+              "DocumentMoniker": "C:\\Users\\NagaLakshmiSingamset\\Desktop\\DOTNET\\PluralSight_Code\\04\\demos\\BethanysPieShop\\BethanysPieShop\\Controllers\\PieController.cs",
+              "RelativeDocumentMoniker": "BethanysPieShop\\Controllers\\PieController.cs",
+              "ToolTip": "C:\\Users\\NagaLakshmiSingamset\\Desktop\\DOTNET\\PluralSight_Code\\04\\demos\\BethanysPieShop\\BethanysPieShop\\Controllers\\PieController.cs",
+              "RelativeToolTip": "BethanysPieShop\\Controllers\\PieController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T09:32:23.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BethanysPieShop",
+              "DocumentMoniker": "C:\\Users\\NagaLakshmiSingamset\\Desktop\\DOTNET\\PluralSight_Code\\04\\demos\\BethanysPieShop\\BethanysPieShop\\BethanysPieShop.csproj",
+              "RelativeDocumentMoniker": "BethanysPieShop\\BethanysPieShop.csproj",
+              "ToolTip": "C:\\Users\\NagaLakshmiSingamset\\Desktop\\DOTNET\\PluralSight_Code\\04\\demos\\BethanysPieShop\\BethanysPieShop\\BethanysPieShop.csproj",
+              "RelativeToolTip": "BethanysPieShop\\BethanysPieShop.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-01T08:59:24.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\NagaLakshmiSingamset\\Desktop\\DOTNET\\PluralSight_Code\\04\\demos\\BethanysPieShop\\BethanysPieShop\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "BethanysPieShop\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\NagaLakshmiSingamset\\Desktop\\DOTNET\\PluralSight_Code\\04\\demos\\BethanysPieShop\\BethanysPieShop\\Properties\\launchSettings.json",
+              "RelativeToolTip": "BethanysPieShop\\Properties\\launchSettings.json",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-01T08:45:55.977Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

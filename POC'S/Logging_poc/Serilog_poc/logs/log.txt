@@ -1,0 +1,20 @@
+2024-12-27 11:32:31.346 +05:30 [INF] Now listening on: https://localhost:7122
+2024-12-27 11:32:31.411 +05:30 [INF] Now listening on: http://localhost:5165
+2024-12-27 11:32:32.152 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-27 11:32:32.155 +05:30 [INF] Hosting environment: Development
+2024-12-27 11:32:32.157 +05:30 [INF] Content root path: C:\Users\NagaLakshmiSingamset\Desktop\Logging\Serilog_poc
+2024-12-27 11:32:36.812 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7122/swagger/index.html - null null
+2024-12-27 11:32:38.234 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7122/swagger/index.html - 200 null text/html;charset=utf-8 1429.5389ms
+2024-12-27 11:32:51.014 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7122/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-27 11:32:51.014 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7122/_vs/browserLink - null null
+2024-12-27 11:32:51.057 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7122/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 43.2452ms
+2024-12-27 11:32:51.233 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7122/_vs/browserLink - 200 null text/javascript; charset=UTF-8 219.8431ms
+2024-12-27 11:32:51.495 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7122/swagger/v1/swagger.json - null null
+2024-12-27 11:32:51.888 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7122/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 393.1185ms
+2024-12-27 11:33:07.283 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7122/WeatherForecast - null null
+2024-12-27 11:33:07.319 +05:30 [INF] Executing endpoint 'Serilog_poc.Controllers.WeatherForecastController.Get (Serilog_poc)'
+2024-12-27 11:33:07.403 +05:30 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Serilog_poc.WeatherForecast] Get() on controller Serilog_poc.Controllers.WeatherForecastController (Serilog_poc).
+2024-12-27 11:33:07.437 +05:30 [INF] Executing ObjectResult, writing value of type 'Serilog_poc.WeatherForecast[]'.
+2024-12-27 11:33:07.482 +05:30 [INF] Executed action Serilog_poc.Controllers.WeatherForecastController.Get (Serilog_poc) in 67.4449ms
+2024-12-27 11:33:07.486 +05:30 [INF] Executed endpoint 'Serilog_poc.Controllers.WeatherForecastController.Get (Serilog_poc)'
+2024-12-27 11:33:07.489 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7122/WeatherForecast - 200 null application/json; charset=utf-8 206.7139ms

@@ -1,0 +1,28 @@
+<p>designation works!</p>
+
+<div class="row">
+  <div class="col-12">
+    <!-- Angular equivalent of @if (isload == true) -->
+    <div *ngIf="isload" class="d-flex align-items-center">
+      <strong role="status">Loading...</strong>
+      <div class="spinner-border ms-auto" aria-hidden="true"></div>
+    </div>
+
+    <!-- Angular equivalent of @else -->
+    <ng-container *ngIf="!isload">
+      <!-- Angular equivalent of @for (i of RoleListService) -->
+      <div class="col-3" *ngFor="let i of RoleListService; index as idx">
+        <div class="card">
+          <div class="card-header">
+            Featured
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">{{ i.roleName }}</h5>
+            <p class="card-text">Update</p>
+            <a href="#" class="btn btn-primary">Delete</a>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</div>

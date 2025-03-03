@@ -1,0 +1,17 @@
+﻿@model IEnumerable<P1.Models.Pie>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pies List</title>
+</head>
+<body>
+
+    @foreach (var pie in Model)
+    {
+        <h1>@pie.Name</h1>
+        <h2>@pie.Price</h2>
+        <h3>@pie.Category</h3>
+    }
+
+</body>
+</html>

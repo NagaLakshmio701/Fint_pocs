@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Booking System</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+</head>
+<body>
+    <div class="container">
+        <header class="my-4">
+            <h1 class="text-center">Bus Booking System</h1>
+        </header>
+
+        <!-- Search Form -->
+        <section>
+            <div class="container mt-5 d-flex justify-content-center">
+              <form class="search-form d-flex align-items-center shadow-lg">
+                <div class="row w-100 text-white">
+                  <!-- From Location -->
+                  <div class="col-md-3 d-flex align-items-center">
+                    <div class="input-group">
+                      <span class="input-group-text"><i class="bi bi-bus-front"></i></span>
+                      <select class="form-select" name="fromLocation" [(ngModel)]="searchobj.fromLocation"  placeholder="From">
+                        <option value="" disabled selected>from</option>
+
+                        <option  *ngFor="let i of locationList$ | async" [value]="i.locationId">{{i.locationName}}</option>
+                      </select>
+                    </div>
+                  </div>
+          
+                  <!-- To Location -->
+                  <div class="col-md-1 text-center d-flex align-items-center justify-content-center">
+                    <i class="bi bi-arrow-left-right fs-3"></i>
+                  </div>
+          
+                  <div class="col-md-3 d-flex align-items-center">
+                    <div class="input-group">
+                      <span class="input-group-text"><i class="bi bi-bus-front"></i></span>
+                      <select class="form-select" name="toLocation" [(ngModel)]="searchobj.toLocation"  placeholder="To">
+                        <option value="" disabled selected>to</option>
+
+                        <option *ngFor="let i of locationList$ | async" [value]="i.locationId">{{i.locationName}}</option>
+                      </select>
+                    </div>
+                  </div>
+          
+                  <!-- Travel Date -->
+                  <div class="col-md-3 d-flex align-items-center">
+                    <div class="input-group">
+                      <span class="input-group-text"><i class="bi bi-calendar"></i></span>
+                      <input name="travelDate" [(ngModel)]="searchobj.travelDate" type="date" class="form-control" placeholder="Select Date">
+                    </div>
+                  </div>
+          
+                  <!-- Search Button -->
+                  <div class="col-md-2 text-center">
+                    <button type="button" (click)="searchBus()" class="btn btn-light text-danger w-100">SEARCH BUSES</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </section>
+          
+        <!-- Buses List -->
+        <section id="buses-list" class="my-4">
+            <h2>Available Buses</h2>
+            @for(i of searchResult;track $index){
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                              <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
+                                <h5 class="card-title">{{i.busName}}</h5>
+                                <p class="card-text">A/C Sleeper (2+1)</p>
+                              </div>
+                              <div class="col-md-9">
+                                <div class="card-body row">
+                                  <div class="col-md-2">
+                                    <p class="card-text"><strong>{{i.departureTime | date:"hh:mm:ss" }}</strong></p>
+                                    <p class="card-text">Departure</p>
+                                  </div>
+                                  <div class="col-md-2">
+                                    <p class="card-text"><strong>6h 30m</strong></p>
+                                    <p class="card-text">Duration</p>
+                                  </div>
+                                  <div class="col-md-2">
+                                    <p class="card-text"><strong>{{i.arrivalTime| date:"hh:mm:ss" }}</strong></p>
+                                    <p class="card-text">Arrival</p>
+                                    <p class="text-danger">{{i.arrivalTime| date:"dd:mm:yyyy" }}</p>
+                                  </div>
+                                  <div class="col-md-2">
+                                    <p class="card-text"><strong>4.5</strong> ⭐</p>
+                                    <p class="card-text">567 Ratings</p>
+                                  </div>
+                                  <div class="col-md-2">
+                                    <p class="card-text"><strong>{{i.price}}</strong></p>
+                                    <p class="card-text">{{i.availableSeats}} Seats available</p>
+                                  </div>
+                                  <div class="col-md-2 text-end">
+                                    <button class="btn btn-danger" [routerLink]="['/booking/',i.scheduleId]">Book Seat</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+
+            }
+           
+        </section>
+        </div>
+        </body>
+        </html>
+        

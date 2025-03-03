@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ste+ixUSUA3efLYyfDLBL5y1BIHxOAeddLfZm9Oba74=",
+  "Source": "Telemetry_ApplicationInsights_poc",
+  "BasePath": "_content/Telemetry_ApplicationInsights_poc",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

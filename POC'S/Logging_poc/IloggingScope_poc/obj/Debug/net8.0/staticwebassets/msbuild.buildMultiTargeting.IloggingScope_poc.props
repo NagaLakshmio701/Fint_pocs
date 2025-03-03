@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\IloggingScope_poc.props" />
+</Project>

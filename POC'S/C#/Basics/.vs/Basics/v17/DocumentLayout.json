@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\NagaLakshmiSingamset\\Desktop\\C#\\Basics\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5DAB5A00-9745-4D28-A7A7-FA1236C17484}|Basics.csproj|c:\\users\\nagalakshmisingamset\\desktop\\c#\\basics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DAB5A00-9745-4D28-A7A7-FA1236C17484}|Basics.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DAB5A00-9745-4D28-A7A7-FA1236C17484}|Basics.csproj|c:\\users\\nagalakshmisingamset\\desktop\\c#\\basics\\basics.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{5DAB5A00-9745-4D28-A7A7-FA1236C17484}|Basics.csproj|solutionrelative:basics.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DAB5A00-9745-4D28-A7A7-FA1236C17484}|Basics.csproj|c:\\users\\nagalakshmisingamset\\desktop\\c#\\basics\\basics.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5DAB5A00-9745-4D28-A7A7-FA1236C17484}|Basics.csproj|solutionrelative:basics.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Basics",
+              "DocumentMoniker": "C:\\Users\\NagaLakshmiSingamset\\Desktop\\C#\\Basics\\Basics.csproj",
+              "RelativeDocumentMoniker": "Basics.csproj",
+              "ToolTip": "C:\\Users\\NagaLakshmiSingamset\\Desktop\\C#\\Basics\\Basics.csproj",
+              "RelativeToolTip": "Basics.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-28T05:28:53.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Basics",
+              "DocumentMoniker": "C:\\Users\\NagaLakshmiSingamset\\Desktop\\C#\\Basics\\Basics.csproj",
+              "RelativeDocumentMoniker": "Basics.csproj",
+              "ToolTip": "C:\\Users\\NagaLakshmiSingamset\\Desktop\\C#\\Basics\\Basics.csproj",
+              "RelativeToolTip": "Basics.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-28T05:25:40.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\NagaLakshmiSingamset\\Desktop\\C#\\Basics\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\NagaLakshmiSingamset\\Desktop\\C#\\Basics\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T05:24:31.529Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

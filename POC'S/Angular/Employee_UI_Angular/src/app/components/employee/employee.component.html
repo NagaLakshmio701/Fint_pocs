@@ -1,0 +1,32 @@
+<p>Employee Details</p>
+
+<div class="row">
+  <div class="col-12">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>ID</th>
+          <th>Code</th>
+          <th>Email</th>
+          <th>Designation</th>
+          <th>Role</th>
+          <th>Mobile</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let emp of EmpList; let i = index">
+          <td>{{ i + 1 }}</td>
+          <td>{{ emp.empName }}</td>
+          <td>{{ emp.empId }}</td>
+          <td>{{ emp.empCode }}</td>
+          <td>{{ emp.empEmailId }}</td>
+          <td>{{ emp.empDesignation }}</td>
+          <td>{{ emp.role }}</td>
+          <td>{{ emp.mobile }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
